@@ -5,13 +5,13 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from time import sleep
 
-driver=webdriver.Chrome(executable_path=r'd:\chromedriver.exe') #Replace the path with the location of your chromedriver
+driver=webdriver.Chrome(executable_path=r'c:\chromedriver.exe') #Replace the path with the location of your chromedriver
 driver.get('https://web.whatsapp.com/')
 
 wait=WebDriverWait(driver,600)
-contact="friends_name"    #Replace "friends_name" with the anme of your contact
+contact="Man"    #Replace "friends_name" with the anme of your contact
 
-message="hi"    #Replace it with your message
+message="Was soll die scheiße"    #Replace it with your message
 
 sleep(20)
 
